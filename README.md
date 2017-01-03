@@ -9,6 +9,7 @@ DemoWithArguments (Program that prints command line arguments)
 NumConversion (Program that prints integer command line arguements with parsing)
 DataTypes (Program showing different data types)
 Decisions (Program showing if...else if...else statement)
+Loops (Program showing do, while and for loops)
 
 ## Challenges
 
