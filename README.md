@@ -2,8 +2,14 @@
 
 Files from following video tutorials by Peggy Fisher.
 
-# Files
+## Examples 
 
 Demo (Hello world program)
 DemoWithArguments (Program that prints command line arguments)
 NumConversion (Program that prints integer command line arguements with parsing)
+
+## Challenges
+
+HelloWorld
+		Takes a command line argument which then prints
+		Prompts for user's name and age, which are then printed
