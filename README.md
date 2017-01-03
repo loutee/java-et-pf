@@ -10,6 +10,7 @@ NumConversion (Program that prints integer command line arguements with parsing)
 DataTypes (Program showing different data types)
 Decisions (Program showing if...else if...else statement)
 Loops (Program showing do, while and for loops)
+UserDefinedMethods (Program showing user defined methods)
 
 ## Challenges
 
