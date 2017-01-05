@@ -44,8 +44,8 @@ public class CollegeCost {
 		int creditHours = getCreditHours();
 		System.out.println("Number of credit hours is " + creditHours);
 
-		double creditCost = getCreditCost();
-		System.out.printf("Cost per credit hour is $%.2f\n", creditCost);
+		double creditRate = getCreditRate();
+		System.out.printf("Cost per credit hour is $%.2f\n", creditRate);
 
 	}
 	
@@ -126,7 +126,7 @@ public class CollegeCost {
 		return storeHours;
 	}
 
-	public static double getCreditCost() {
+	public static double getCreditRate() {
 		double storeRate;
 		do {
 			System.out.print("Enter cost per credit hour: $");
