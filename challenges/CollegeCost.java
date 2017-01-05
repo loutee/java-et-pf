@@ -32,23 +32,32 @@ public class CollegeCost {
 		}
 
 		// Get general student information
-		String studentName = getStudentName();
-		System.out.println("Student's name is: " + studentName);
-
-		String studentYear = getStudentYear();
-		System.out.println("Student is in " + studentYear + " year.");
 		
+		String studentName = getStudentName();
+		String studentYear = getStudentYear();
 		double supplyCost = getSupplyCost();
-		System.out.printf("Cost of supplies is $%.2f\n", supplyCost );
-
 		int creditHours = getCreditHours();
-		System.out.println("Number of credit hours is " + creditHours);
-
 		double creditRate = getCreditRate();
-		System.out.printf("Cost per credit hour is $%.2f\n", creditRate);
 
-		double totalCost = getTotalCost( creditHours, creditRate, supplyCost);
-		System.out.printf("Total cost is $%.2f\n", totalCost);
+		System.out.println("\nStudent's name is: " + studentName);
+		System.out.println(studentName + " is a " + studentYear);
+		System.out.printf("Cost of supplies is $%.2f\n", supplyCost );
+		System.out.println("Number of credit hours is " + creditHours);
+		System.out.printf("Cost per credit hour is $%.2f\n", creditRate);
+		System.out.println("__________________________________________\n");		
+
+		double totalCost;
+		// Get dorm student infomation if applicable
+		if (dormStudent == true) {
+			int stayDuration = getDuration();
+			double weeklyExpenses = getWeeklyExpenses();
+			double rbCost = getRBCost();
+			totalCost = getTotalCost( creditHours, creditRate, supplyCost, stayDuration, weeklyExpenses, rbCost);	
+			System.out.printf("Total cost is $%.2f\n", totalCost);
+		} else {
+			totalCost = getTotalCost( creditHours, creditRate, supplyCost);
+			System.out.printf("Total cost is $%.2f\n", totalCost);
+		}
 
 	}
 	
@@ -138,7 +147,42 @@ public class CollegeCost {
 		return storeRate;
 	}
 
+	// Methods for getting dorm student information
+
+	public static int getDuration() {
+		int storeDuration;
+		do {
+			System.out.print("Enter duration of stay (weeks): ");
+			storeDuration = in.nextInt();
+		} while (storeDuration < 0);
+		return storeDuration;
+	}
+
+	public static double getWeeklyExpenses() {
+		double storeWeeklyExpenses;
+		do {
+			System.out.print("Enter cost of weekly expenses: $");
+			storeWeeklyExpenses = in.nextDouble();
+		} while (storeWeeklyExpenses < 0);
+		return storeWeeklyExpenses;
+	}
+
+	public static double getRBCost() {
+		double storeRBCost;
+		do {
+			System.out.print("Enter room and board cost: $");
+			storeRBCost = in.nextDouble();
+		} while (storeRBCost < 0);
+		return storeRBCost;
+	}
+	
+	// Methods for calculating total
+
 	public static double getTotalCost(int hours, double rate, double supply) {
 		return rate * (double) hours + supply;
+	}
+
+	public static double getTotalCost(int hours, double rate, double supply, int duration, double weeklyExpenses, double rbCost) {
+		return ( (rate * (double) hours + supply) + (weeklyExpenses * (double) duration + rbCost) );
 	}
 }
