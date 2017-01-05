@@ -34,13 +34,15 @@ public class CollegeCost {
 		// Get general student information
 		String studentName = getStudentName();
 		System.out.println("Student's name is: " + studentName);
+
 		String studentYear = getStudentYear();
 		System.out.println("Student is in " + studentYear + " year.");
-		/*
+		
 		double supplyCost = getSupplyCost();
-		int creditHours = getCreditHours();
-		double creditCost = getCreditCost();
-		*/
+		System.out.printf("Cost of supplies is $%.2f\n", supplyCost );
+
+		//int creditHours = getCreditHours();
+		//double creditCost = getCreditCost();
 
 	}
 	
@@ -69,11 +71,11 @@ public class CollegeCost {
 	}
 
 	public static String getStudentName() {
-		String storeStudentName;
-		do {
-			System.out.print("Enter student name: ");
-			storeStudentName = in.next();
-		} while (storeStudentName.isEmpty());
+		String storeStudentName = "";
+		System.out.print("Enter student name: ");
+		while (storeStudentName.isEmpty()) {	
+			storeStudentName = in.nextLine();
+		}	
 		return storeStudentName;
 	}
 
@@ -87,7 +89,7 @@ public class CollegeCost {
 			System.out.println("Enter '3' for Junior");
 			System.out.println("Enter '4' for Senior");
 			response = in.nextInt();
-		} while ( response < 0 && response > 5 );
+		} while ( response < 0 && response > 4 );
 
 		switch (response) {
 			case 1:
@@ -101,6 +103,15 @@ public class CollegeCost {
 			default:
 				return "freshman";
 		}
+	}
+
+	public static double getSupplyCost() {
+		double storeCost;
+		do {
+			System.out.print("Enter the cost of supplies: $");
+			storeCost = in.nextDouble();
+		} while (storeCost < 0);
+		return storeCost;
 	}
 
 /*
