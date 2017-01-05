@@ -47,6 +47,9 @@ public class CollegeCost {
 		double creditRate = getCreditRate();
 		System.out.printf("Cost per credit hour is $%.2f\n", creditRate);
 
+		double totalCost = getTotalCost( creditHours, creditRate, supplyCost);
+		System.out.printf("Total cost is $%.2f\n", totalCost);
+
 	}
 	
 	// Methods for getting general student information
@@ -133,5 +136,9 @@ public class CollegeCost {
 			storeRate = in.nextDouble();
 		} while (storeRate < 0);
 		return storeRate;
+	}
+
+	public static double getTotalCost(int hours, double rate, double supply) {
+		return rate * (double) hours + supply;
 	}
 }
