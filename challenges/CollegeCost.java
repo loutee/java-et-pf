@@ -41,8 +41,11 @@ public class CollegeCost {
 		double supplyCost = getSupplyCost();
 		System.out.printf("Cost of supplies is $%.2f\n", supplyCost );
 
-		//int creditHours = getCreditHours();
-		//double creditCost = getCreditCost();
+		int creditHours = getCreditHours();
+		System.out.println("Number of credit hours is " + creditHours);
+
+		double creditCost = getCreditCost();
+		System.out.printf("Cost per credit hour is $%.2f\n", creditCost);
 
 	}
 	
@@ -114,15 +117,21 @@ public class CollegeCost {
 		return storeCost;
 	}
 
-/*
-		double generalCost = getStudentInfo();
-		double dormCost;
-
-		if (storeStudentType.equals("dorm") {
-			dormCost = getDormInfo();
-			System.out.println(
-		}
-
+	public static int getCreditHours() {
+		int storeHours;
+		do {
+			System.out.print("Enter number of credit hours: ");
+			storeHours = in.nextInt();
+		} while (storeHours < 0);
+		return storeHours;
 	}
-*/
+
+	public static double getCreditCost() {
+		double storeRate;
+		do {
+			System.out.print("Enter cost per credit hour: $");
+			storeRate = in.nextDouble();
+		} while (storeRate < 0);
+		return storeRate;
+	}
 }
