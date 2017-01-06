@@ -12,6 +12,7 @@ Decisions (Program showing if...else if...else statement)
 Loops (Program showing do, while and for loops)
 UserDefinedMethods (Program showing user defined methods)
 OverloadingMethods (Program showing an overloaded method)
+Employee (Example of an employee class)
 
 ## Challenges
 
