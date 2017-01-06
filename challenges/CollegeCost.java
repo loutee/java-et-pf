@@ -44,7 +44,6 @@ public class CollegeCost {
 		System.out.printf("Cost of supplies is $%.2f\n", supplyCost );
 		System.out.println("Number of credit hours is " + creditHours);
 		System.out.printf("Cost per credit hour is $%.2f\n", creditRate);
-		System.out.println("__________________________________________\n");		
 
 		double totalCost;
 		// Get dorm student infomation if applicable
@@ -52,9 +51,11 @@ public class CollegeCost {
 			int stayDuration = getDuration();
 			double weeklyExpenses = getWeeklyExpenses();
 			double rbCost = getRBCost();
+			System.out.println("__________________________________________\n");		
 			totalCost = getTotalCost( creditHours, creditRate, supplyCost, stayDuration, weeklyExpenses, rbCost);	
 			System.out.printf("Total cost is $%.2f\n", totalCost);
 		} else {
+			System.out.println("__________________________________________\n");		
 			totalCost = getTotalCost( creditHours, creditRate, supplyCost);
 			System.out.printf("Total cost is $%.2f\n", totalCost);
 		}
