@@ -14,6 +14,7 @@ UserDefinedMethods (Program showing user defined methods)
 OverloadingMethods (Program showing an overloaded method)
 Employee (Example of an employee class)
 Address (Example of an address class)
+Payroll (Example of class usage)
 
 ## Challenges
 
