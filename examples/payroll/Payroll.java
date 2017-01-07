@@ -10,6 +10,10 @@ public class Payroll {
 		Employee ee2 = new Employee("Bob", "Fisher", "717-555-1212", a1, 955123, 003, "Lecturer", 45500.00 );
 		ee2.printEmployee();
 
+		ee2.setSalary(66000d);
+		ee2.setTitle("Producer");
+		ee2.printEmployee();
+
 		// compare salaries to see who makes more money
 		if (ee1.compareTo(ee2) == 0) {
 			System.out.println("\nEqual salaries");
