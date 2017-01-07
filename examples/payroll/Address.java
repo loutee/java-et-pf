@@ -18,7 +18,7 @@ public class Address implements Comparable {
 		zipcode = zip;
 	}
 
-	public Address(String houseNum, Strin address1,
+	public Address(String houseNum, String address1,
 			String city, String state, String zip) {
 		houseNumber = houseNum;
 		this.address1 = address1;

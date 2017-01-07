@@ -14,7 +14,7 @@ public class Employee implements Comparable {
 
 	public Employee(String fname, String lname, String phone, Address address, int employeeID, int deptID, String title, double salary) {
 		firstName = fname;
-		lastName = lname
+		lastName = lname;
 		phoneNumber  = phone;
 		this.address = address;
 		this.employeeID = employeeID;
