@@ -5,27 +5,37 @@ Files from following video tutorials by Peggy Fisher.
 ## Examples 
 
 * ##### 	Demo 
-					Hello world program
+				Hello world program
+					
 * ##### 	DemoWithArguments 
-					Program that prints command line arguments
+				Program that prints command line arguments
+				
 * ##### 	NumConversion 
-					Program that prints integer command line arguements with parsing
+				Program that prints integer command line arguements with parsing
+				
 * ##### 	DataTypes 
-					Program showing different data types
+				Program showing different data types
+				
 * ##### 	Decisions 
-					Program showing if...else if...else statement
+				Program showing if...else if...else statement
+				
 * ##### 	Loops 
-					Program showing do, while and for loops
+				Program showing do, while and for loops
+				
 * ##### 	UserDefinedMethods 
-					Program showing user defined methods
+				Program showing user defined methods
+				
 * ##### 	OverloadingMethods 
-					Program showing an overloaded method
+				Program showing an overloaded method
+				
 * ##### 	Employee 
-					Example of an employee class
+				Example of an employee class
+				
 * ##### 	Address 
-					Example of an address class
+				Example of an address class
+				
 * ##### 	Payroll 
-					Example of class usage
+				Example of class usage
 
 ## Challenges
 
