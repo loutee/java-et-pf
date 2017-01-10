@@ -23,3 +23,6 @@ HelloWorld
 		Prompts for user's name and age, which are then printed
 CollegeCost
 		Prompts for information to calculate yearly cost for college
+
+KathiesCatering
+		Create an application to help manage Kathie's upcoming events

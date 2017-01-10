@@ -1,0 +1,27 @@
+/* Challenge: Kathie's Catering
+ * Objectives
+ * 	Constructors for the Event class
+ * 		Only the even name is known
+ * 		Event time and date
+ *		Even name, date, and number of guests
+ *
+ *	Accessor and mutator methods
+ *		Set and get methods for all instance data
+ *		Calculate total method
+ *		Event name, date, and number of guests
+ *
+ *	Main
+ *		Contains helper methods for all data
+ *		Creates an event object
+ *		Prints the event
+ */
+
+package kathiescatering;
+
+import java.util.*;
+
+public class KathiesCatering {
+	public static void main(String[] args) {
+
+	}
+}
