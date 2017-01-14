@@ -37,6 +37,9 @@ Files from following video tutorials by Peggy Fisher.
 * ##### Payroll 
 		Example of class usage (employee and address)
 
+* ##### Geometry
+		Example of inheritance (Shapes, Circle, Triangle, Rectangle)
+
 ## Challenges
 
 * ##### HelloWorld
