@@ -48,3 +48,4 @@ Files from following video tutorials by Peggy Fisher.
 
 * ##### KathiesCatering
 		Create an application to help manage Kathie's upcoming events
+		***Consider adding Peggy's solution features into program
