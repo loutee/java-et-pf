@@ -41,7 +41,7 @@ Files from following video tutorials by Peggy Fisher.
 		Example of inheritance (Shapes, Circle, Triangle, Rectangle)
 
 * #####	InterfaceDemo 
-		Example of an interface (Bike)
+		Example of an interface (Bike and MountainBike)
 
 ## Challenges
 
