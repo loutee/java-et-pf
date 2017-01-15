@@ -40,8 +40,8 @@ Files from following video tutorials by Peggy Fisher.
 * ##### Geometry
 		Example of inheritance (Shapes, Circle, Triangle, Rectangle)
 
-* ##### Bicycle
-		Example of interface
+* #####	InterfaceDemo 
+		Example of an interface (Bike)
 
 ## Challenges
 
