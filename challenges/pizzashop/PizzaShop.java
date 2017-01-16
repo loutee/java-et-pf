@@ -18,3 +18,14 @@
  * 			Up to 2 for Sicilian
  * 		Print out the total for the order
  */
+
+package pizzashop;
+import java.util.*;
+
+public class PizzaShop {
+
+	public static void main(String[] args {
+
+	}
+
+}
