@@ -6,7 +6,7 @@ public abstract class Pizza implements Comparable {
 	private String type;
 	private ArrayList toppings;
 	private double cost;
-	
+
 	public Pizza(int size, String type, ArrayList toppings, double cost) {
 		this.size = size;
 		this.type = type;
@@ -14,8 +14,8 @@ public abstract class Pizza implements Comparable {
 		this.cost = cost;
 	}
 
-	public abstract addTopping();
-	public abstract calculateCost();
+	public abstract void addTopping();
+	public abstract double calculateCost();
 
 	@Override
 	public int compareTo(Object p) {
