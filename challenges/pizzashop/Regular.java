@@ -3,8 +3,8 @@ import java.util.*;
 
 public class Regular extends Pizza {
 
-	public Regular(int size, String type, ArrayList toppings, double cost) {
-		super(size, type, toppings, cost);
+	public Regular(int size) {
+		super(size, "Regular");
 	}
 
 	public void addTopping(String topping) {
@@ -16,7 +16,8 @@ public class Regular extends Pizza {
 	}
 
 	public double calculateCost() {
-		return size + 2*toppings.size();
+		cost = size + 2*toppings.size();
+		return cost;
 	}
 
 }

@@ -25,7 +25,8 @@ import java.util.*;
 public class PizzaShop {
 
 	public static void main(String[] args {
-
+		Pizza canadian = new Regular(12);
+		Pizza deepdish = new Sicilian(16);
 	}
 
 }
