@@ -9,7 +9,7 @@ public class Regular extends Pizza {
 
 	public Regular(int size) {
 		super(size);
-		this.type = "Regular"
+		this.type = "Regular";
 	}
 
 	public double getCost() {
@@ -37,5 +37,6 @@ public class Regular extends Pizza {
 			toppings.add(topping);
 			this.cost += 2.00;
 		}
+	}
 
 }

@@ -30,7 +30,7 @@ public class PizzaShop {
 		System.out.println("Enter customer name: ");
 		String name = in.nextLine();
 		System.out.println("What type of pizza would you like, regular"
-							+ " or Sicilian?"
+							+ " or Sicilian?");
 		String type = in.nextLine();
 		
 		if (type.equalsIgnoreCase("regular")) {
