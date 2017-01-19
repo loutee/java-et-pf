@@ -3,21 +3,39 @@ import java.util.*;
 
 public class Regular extends Pizza {
 
+	public Regular() {
+
+	}
+
 	public Regular(int size) {
-		super(size, "Regular");
+		super(size);
+		this.type = "Regular"
 	}
 
-	public void addTopping(String topping) {
-		if (toppings.size() <= 5) {
-			toppings.add(topping);
-		} else {
-			System.out.println("The maximum number of toppings has been reached");
+	public double getCost() {
+		return this.cost;
+	}
+
+	@Override
+	public void getToppings() {
+
+		Scanner in = new Scanner(System.in);
+		System.out.println("How many toppings would you like?");
+		int numToppings = in.nextInt();
+
+		while (numToppings > 4) {
+			System.out.println("Sorry, you are limited to four.");
+			System.out.println("How many toppings would you like?");
+			numToppings = in.nextInt();
 		}
-	}
 
-	public double calculateCost() {
-		cost = size + 2*toppings.size();
-		return cost;
-	}
+		in.nextLine();
+
+		for (int i = 0; i < numToppings; i++) {
+			System.out.println("Enter topping: ");
+			String topping = in.nextLine();
+			toppings.add(topping);
+			this.cost += 2.00;
+		}
 
 }
