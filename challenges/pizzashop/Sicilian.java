@@ -7,6 +7,10 @@ public class Sicilian extends Pizza {
 	public static final int med_width = 12;
 	public static final int lg_width = 14;
 
+	public Sicilian() {
+		this.type = "Sicilian";
+	}
+
 	public Sicilian(int size) {
 		super(size);
 		this.type = "Sicilian";
