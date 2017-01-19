@@ -50,4 +50,17 @@ public abstract class Pizza implements Comparable {
 		}
 	}
 
+	public void printString() {
+		String topping="";
+		if (toppings.size() == 0) {
+			topping = "No toppings selected.";
+		} else {
+			for(int i = 0; i < toppings.size(); i++) {
+				topping += toppings.get(i) + ", ";
+			}
+		}
+		System.out.println("Your pizza has been ordered with: " +
+							topping + ".\nThe total cost is $" + cost);
+	}
+
 }
