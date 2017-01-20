@@ -49,6 +49,9 @@ Files from following video tutorials by Peggy Fisher.
 * ##### SampleAPIs
 		Example of some of the array Java API methods and usage
 
+* ##### MultiDimensional
+		Example of multidimensional arrays
+
 ## Challenges
 
 * ##### HelloWorld
