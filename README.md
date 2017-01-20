@@ -43,6 +43,9 @@ Files from following video tutorials by Peggy Fisher.
 * #####	InterfaceDemo 
 		Example of an interface (Bike and MountainBike)
 
+* ##### ArrayExamples
+		Example of array instantiation
+
 ## Challenges
 
 * ##### HelloWorld
