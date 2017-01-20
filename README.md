@@ -66,4 +66,5 @@ Files from following video tutorials by Peggy Fisher.
 		***Consider adding Peggy's solution features into program
 
 * ##### PizzaShop
-		Create an application for ordering pizza
+		Create an application for ordering pizza. Has been edited to
+		show usage of ArrayList to store objects.
