@@ -46,6 +46,9 @@ Files from following video tutorials by Peggy Fisher.
 * ##### ArrayExamples
 		Example of array instantiation
 
+* ##### SampleAPIs
+		Example of some of the array Java API methods and usage
+
 ## Challenges
 
 * ##### HelloWorld
