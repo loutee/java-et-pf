@@ -4,6 +4,12 @@ import java.util.*;
 /**
  *
  * @author Peggy Fisher
+ *
+ * Challenge Objectives
+ * 	Create the name search game
+ * 		Start with a 2D array of names
+ * 		Ask the user to "guess a name"
+ * 		Use a method to search the array
  */
 public class FindName {
 
