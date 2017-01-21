@@ -61,7 +61,7 @@ public abstract class Pizza implements Comparable {
 			}
 		}
 		System.out.println("Your pizza has been ordered with: " +
-							topping + ".\nThe total cost is $" + cost);
+							topping + "and\nthe total cost is $" + cost);
 	}
 
 }

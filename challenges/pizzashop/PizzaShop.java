@@ -36,7 +36,7 @@ public class PizzaShop {
 		while (response.equals("y")) {
 
 			System.out.println("What type of pizza would you like, regular"
-								+ " or Sicilian?");
+								+ " or sicilian?");
 			String type = in.nextLine();
 			
 			if (type.equalsIgnoreCase("regular")) {
@@ -104,9 +104,15 @@ public class PizzaShop {
 				response = in.nextLine();
 
 		}
-
+		/*
 		for (int i = 0; i < pizzas.size(); i++) {
 			pizzas.get(i).printString();
+		}
+		 */
+		
+		// Enhanced for loop implementation
+		for (Pizza p : pizzas) {
+			p.printString();
 		}
 	}
 }
