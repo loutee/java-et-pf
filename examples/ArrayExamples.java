@@ -14,7 +14,17 @@ public class ArrayExamples {
 		boolean[] responses = {true, false, false, true, true};
 		char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 		String[] names = new String[10];
-
+	
+		// Enhanced for loop
+		// Reads only. Starts from first and goes to last.
+		for(double element : prices) {
+			System.out.println(element);
+		}
+		
+		for(boolean response : responses) {
+			System.out.println(response);
+		}
+		
 	}
 
 }

@@ -44,7 +44,7 @@ Files from following video tutorials by Peggy Fisher.
 		Example of an interface (Bike and MountainBike)
 
 * ##### ArrayExamples
-		Example of array instantiation
+		Example of array instantiation and enhanced for loops
 
 * ##### SampleAPIs
 		Example of some of the array Java API methods and usage
