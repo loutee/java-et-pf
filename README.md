@@ -68,3 +68,8 @@ Files from following video tutorials by Peggy Fisher.
 * ##### PizzaShop
 		Create an application for ordering pizza. Has been edited to
 		show usage of ArrayList to store objects.
+
+* ##### FindName
+		Create an application that finds a specific name in a two-
+		dimensional table.
+
