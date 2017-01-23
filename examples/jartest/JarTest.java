@@ -1,4 +1,8 @@
-package jartest;
+/*
+ * Compile with $ javac -cp MyGeometry.jar JarTest.java
+ * Run with $ java -cp MyGeometry.jar:. JarTest
+ */
+
 import geometry.*;
 
 public class JarTest {

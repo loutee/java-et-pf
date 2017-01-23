@@ -33,12 +33,15 @@ Files from following video tutorials by Peggy Fisher.
 				
 * ##### Address
 		Example of an address class
-				
+
 * ##### Payroll 
 		Example of class usage (employee and address)
 
 * ##### Geometry
 		Example of inheritance (Shapes, Circle, Triangle, Rectangle)
+
+* ##### JarTest
+		Example of .jar usage (Geometry)
 
 * #####	InterfaceDemo 
 		Example of an interface (Bike and MountainBike)
