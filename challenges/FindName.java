@@ -33,25 +33,26 @@ public class FindName {
         //the method to search for that name. 
 		String first = new String();
 		String last = new String();
+		String response = "y";	
 
-		if (args.length != 0) {
-			first = args[0];
-			last = args[1];
-		} else {
+		while (response.equalsIgnoreCase("y")) {
 			Scanner in = new Scanner(System.in);
 			System.out.printf("Enter name (first then last): ");
 			String inName = in.nextLine();
 			String[] splitName = inName.split(" ");
 			first = splitName[0];
 			last = splitName[1];
-		}
 
-		System.out.println("Searching for " + first + " " + last + "...");
+			System.out.println("Searching for " + first + " " + last + "...");
 
-		if (nameSearch(first, last, names)) {
-			System.out.println(first + " " + last + " is in the list!");
-		} else {
-			System.out.println(first + " " + last + " is not in the list.");
+			if (nameSearch(first, last, names)) {
+				System.out.println(first + " " + last + " is in the list!");
+			} else {
+				System.out.println(first + " " + last + " is not in the list.");
+			}
+
+			System.out.println("Would you like you search another name? [y/n]");
+			response = in.nextLine();
 		}
     }
 
