@@ -58,7 +58,7 @@ public class FindName {
 	// Method
 	public static boolean nameSearch(String first, String last, String[][] narr) {
 		for (String[] name : narr) {
-			if ( (name[0].equals(first)) && (name[1].equals(last)) ) {
+			if ( (name[0].equalsIgnoreCase(first)) && (name[1].equalsIgnoreCase(last)) ) {
 				return true;
 			}
 		}
