@@ -27,6 +27,9 @@ Files from following video tutorials by Peggy Fisher.
 				
 * ##### OverloadingMethods 
 		Program showing an overloaded method
+
+* ##### ErrorHandling
+		Example of error handling with exceptions
 				
 * ##### Employee 
 		Example of an employee class
