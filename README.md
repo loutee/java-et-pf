@@ -62,14 +62,17 @@ Files from following video tutorials by Peggy Fisher.
 
 * ##### HelloWorld
 		Takes a command line argument which is then printed
-		Prompts for user's name and age, which are then printed
+		Prompts for user's name and age, which are then print.
 
 * ##### CollegeCost
-		Prompts for information to calculate yearly cost for college
+		Prompts for information to calculate yearly cost for college.
 
 * ##### KathiesCatering
-		Create an application to help manage Kathie's upcoming events
+		Create an application to help manage Kathie's upcoming events.
 		***Consider adding Peggy's solution features into program
+
+* ##### Challenge
+		Program in which problems require to be identified and corrected.
 
 * ##### PizzaShop
 		Create an application for ordering pizza. Has been edited to
