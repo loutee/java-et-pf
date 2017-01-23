@@ -33,15 +33,25 @@ public class FindName {
         //the method to search for that name. 
 		String first = new String();
 		String last = new String();
-		String response = "y";	
+		String response = "y";
+		boolean cmdarg = false;	
+
+		Scanner in = new Scanner(System.in);
+
+		if (args.length != 0) {
+			first = args[0];
+			last = args[1];
+			cmdarg = true;
+		}
 
 		while (response.equalsIgnoreCase("y")) {
-			Scanner in = new Scanner(System.in);
-			System.out.printf("Enter name (first then last): ");
-			String inName = in.nextLine();
-			String[] splitName = inName.split(" ");
-			first = splitName[0];
-			last = splitName[1];
+			if (cmdarg == false) {
+				System.out.printf("Enter name (first then last): ");
+				String inName = in.nextLine();
+				String[] splitName = inName.split(" ");
+				first = splitName[0];
+				last = splitName[1];
+			}
 
 			System.out.println("Searching for " + first + " " + last + "...");
 
@@ -53,6 +63,7 @@ public class FindName {
 
 			System.out.println("Would you like you search another name? [y/n]");
 			response = in.nextLine();
+			cmdarg = false;
 		}
     }
 
