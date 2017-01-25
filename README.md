@@ -30,6 +30,9 @@ Files from following video tutorials by Peggy Fisher.
 
 * ##### ErrorHandling
 		Example of error handling with exceptions
+
+* ##### FindingPI
+		Example of approximating pi using random sampling
 				
 * ##### Employee 
 		Example of an employee class
