@@ -1,5 +1,8 @@
 package challenge;
 
+import java.util.*;
+import java.text.*;
+
 /**
  *
  * @author Peggy Fisher
@@ -20,10 +23,10 @@ public class Challenge {
 	    /**
 		 * format method is used to convert the date in MM/dd/yyyy format
 		 */
-		 System.out.println("Date in MM/dd/yyyy format: "+df.format(dt));
+		 System.out.println("Date in MM/dd/yyyy format: "+ df.format(dt));
 				    
 	    DateFormat df2 = DateFormat.getDateInstance(DateFormat.LONG, Locale.FRANCE);
-	    System.out.println("France time: "+df2.format(dt));
+	    System.out.println("France time: " + df2.format(dt));
 								       
 								       
 	}								    
