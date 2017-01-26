@@ -33,6 +33,9 @@ Files from following video tutorials by Peggy Fisher.
 
 * ##### FindingPI
 		Example of approximating pi using random sampling
+
+* ##### RecursionExample
+		Example of a recursive function
 				
 * ##### Employee 
 		Example of an employee class
