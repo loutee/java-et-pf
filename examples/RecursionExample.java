@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class RecursionExample {
 
@@ -13,6 +13,12 @@ public class RecursionExample {
 			return;
 		}
 		System.out.println(count + "...");
+		// Delay each prompt by 1 second
+		try {
+			Thread.sleep(1000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		countDown(count - 1);
 	}
 
