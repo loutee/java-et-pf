@@ -80,6 +80,10 @@ Files from following video tutorials by Peggy Fisher.
 * ##### Challenge
 		Program in which problems require to be identified and corrected.
 
+* ##### MonteCarlo
+		Monte Carlo simulation for calculating probability of selecting a
+		certain marble from a bowl of marbles.
+
 * ##### PizzaShop
 		Create an application for ordering pizza. Has been edited to
 		show usage of ArrayList to store objects.
