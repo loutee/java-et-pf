@@ -18,7 +18,8 @@ public class DebugChallenge {
 
 		while(in.hasNextDouble())
 		{
-			total += in.nextDouble();            
+			total += in.nextDouble();
+			count++;
 			System.out.println("Enter next number or Q to quit: ");
 		}
 		//to find the average, divide the total by the count of items
@@ -26,12 +27,12 @@ public class DebugChallenge {
         System.out.println("Average is: "+ average);
 		// find the average of these three numbers, the output
 		// should be 5.33 repeated
-        double avg = (3+5+8)/3;
+        double avg = (3+5+8)/3.0;
         System.out.println("The average is: "+ avg);
 		// find the celsius temp given the fahrenheit temp
 		// when the fahrenheit is 212, the celsius is 100
         int F = 212;
-		double C = 5/9*(F-32);
+		double C = 5/9.0*(F-32);
 		System.out.println("Celsius: "+C);
 
    }
