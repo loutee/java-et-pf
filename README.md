@@ -80,6 +80,9 @@ Files from following video tutorials by Peggy Fisher.
 		Create an application to help manage Kathie's upcoming events.
 		***Consider adding Peggy's solution features into program
 
+* ##### DebugChallenge
+		Debug and fix program
+
 * ##### Challenge
 		Program in which problems require to be identified and corrected.
 
